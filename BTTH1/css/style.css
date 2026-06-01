@@ -22,3 +22,26 @@ body{
     font-family:var(--font-main);
     color:var(--color-text);
 }
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 40px;
+    position:sticky;
+    top:0;
+
+    background:white;
+    z-index:1000;
+}
+nav a{
+    text-decoration:none;
+    color:var(--color-text);
+
+    margin-left:20px;
+
+    font-weight:500;
+}
+nav a:hover{
+    color:var(--color-primary);
+}
