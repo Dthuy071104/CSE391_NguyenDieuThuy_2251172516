@@ -45,3 +45,52 @@ nav a{
 nav a:hover{
     color:var(--color-primary);
 }
+.hero{
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    background:
+    linear-gradient(
+        135deg,
+        var(--color-primary),
+        var(--color-secondary)
+    );
+
+    color:white;
+}
+.cta-button{
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 24px;
+
+    background:white;
+
+    color:var(--color-primary);
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    transition:0.3s;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.cta-button:hover{
+    transform:scale(1.05);
+}
+.logo{
+    font-size:1.3rem;
+    font-weight:bold;
+}
+.hero h1{
+    font-size:3rem;
+}
