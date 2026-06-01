@@ -122,3 +122,83 @@ nav a:hover{
     font-size:1.2rem;
     margin-bottom:15px;
 }
+/* SKILLS SECTION */
+
+.skills-section{
+    padding:80px 10%;
+}
+
+.skills-section h2{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:40px;
+}
+.skills-grid{
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+}
+.skill-header{
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+}
+.skill-bar{
+    height:12px;
+
+    background:#e2e8f0;
+
+    border-radius:10px;
+
+    overflow:hidden;
+}
+.skill-progress{
+    height:100%;
+
+    background:
+    linear-gradient(
+        90deg,
+        var(--color-primary),
+        var(--color-secondary)
+    );
+
+    border-radius:10px;
+}
+.html{
+    width:90%;
+}
+
+.css{
+    width:85%;
+}
+
+.javascript{
+    width:70%;
+}
+
+.react{
+    width:60%;
+}
+@media (max-width:768px){
+
+    .about-section{
+        grid-template-columns:1fr;
+
+        text-align:center;
+    }
+
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+}
